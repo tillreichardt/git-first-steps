@@ -24,3 +24,5 @@ def findMinPos(j: int, list:[]):
             minVal = list[i]
             pos = i
     return pos
+
+print(bubbleSort([3,1,5,-1,7]))
