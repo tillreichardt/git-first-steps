@@ -1,4 +1,4 @@
-#def bubbleSort(array: []):
+def bubbleSort(array: []):
     length = len(array)
     for i in range(0,length):
         for k in range(0,length-1):
@@ -17,7 +17,7 @@ def minSort(list:[]):
     return list
 
 def findMinPos(j: int, list:[]):
-        pos = -1
+    pos = -1
     minVal = float('inf')
     for i in range (j, len(list)):
         if list[i]<minVal:
